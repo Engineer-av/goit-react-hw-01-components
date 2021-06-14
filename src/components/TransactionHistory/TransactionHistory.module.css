@@ -1,0 +1,37 @@
+.transactionHistory {
+  width: 450px;
+  text-align: center;
+  border: 1px solid #c6afb1;
+  border-radius: 5px;
+  box-shadow: 4px 3px 9px -1px #c6afb1;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.header {
+  background-color: teal;
+  height: 30px;
+  color: #fff;
+}
+
+.description {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: #7a6e6e;
+}
+
+.description:not(:last-child) {
+  border-bottom: 1px solid #c6afb1;
+}
+
+.description:nth-child(2n) {
+  background-color: violet;
+}
+
+td:not(:last-child) {
+  border-right: 1px solid #c6afb1;
+}

@@ -1,0 +1,39 @@
+.friendsList {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid #c6afb1;
+  border-radius: 5px;
+  box-shadow: 4px 3px 9px -1px #c6afb1;
+  background-color: rgba(206, 186, 207, 0.1);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.avatar {
+  margin-right: 15px;
+}
+
+.name {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.187;
+}
