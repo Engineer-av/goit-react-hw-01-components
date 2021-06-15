@@ -1,6 +1,6 @@
 import Container from './components/Container/Container';
 import { Profile } from './components/Profile';
-import user from './user.json';
+import user from './components/Profile/user.json';
 import { Statistics } from './components/Statistics';
 import statisticalData from './components/Statistics/statistical-data.json';
 import { FriendsList } from './components/FriendsList';
@@ -16,9 +16,7 @@ function App() {
         tag={user.tag}
         location={user.location}
         avatar={user.avatar}
-        followers={user.stats.followers}
-        views={user.stats.views}
-        likes={user.stats.likes}
+        stats={user.stats}
       />
       <Statistics title="Upload stats" stats={statisticalData} />
       <Statistics stats={statisticalData} />
